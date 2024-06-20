@@ -1,0 +1,73 @@
+
+.card{
+    width: 500px;
+    background-color: lightskyblue;
+    margin-left: 50px;
+    margin-right:50px ;
+    margin-top: 100px ;
+    margin-bottom:20px ;
+    
+    display:flex;
+    text-align: center;
+    border: 2px solid lightcoral;
+    border-radius: 20px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    font-family: 'Roboto', sans-serif;
+    margin: 40px auto; /* added to make the profile at centre   */
+    transition : transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+ }
+
+.card:hover {
+    transform: scale(1.05) rotate(3deg);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+
+.pic{
+    width: 200px;
+    border: 0px ;
+    border-radius:200px;
+    padding:20px;
+    margin-left: 20px;
+    
+    
+}
+.info p:first-child{
+    margin-top: 68px;
+    font-family: 'Roboto', sans-serif;
+    font-size:larger;
+    color: #333;
+     font-weight: bold;
+     
+    
+}
+.info p:nth-child(2){
+    
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #555;
+    font-weight: bolder;
+    }
+.info p:last-child { 
+        font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      color: #333;
+      font-weight: bold;
+      font-size: larger;
+}
+
+
+h1 {
+    margin-top: 40px;
+}
+
+.link {
+    text-decoration: none;
+   
+    color: inherit; /* Inherit color to keep text color same as .info */
+}
+
+.link:hover .info p {
+    color: purple;
+}
